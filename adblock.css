@@ -1,0 +1,10 @@
+li[type='mv']
+, li[type='class']
+, li[type='app']
+, div.head-detail-info
+, div.mod-side-nav-recently-used
+, #qz-head-level
+, span.qz-app-flag.wing-fly
+{
+    display: none;
+}
