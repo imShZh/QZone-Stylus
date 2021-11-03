@@ -34,7 +34,7 @@ make
 
 你可以在Github上下载已经被提前构建好的CSS。
 
-通过这个链接以获取：[点我]()
+通过这个链接以获取：[点我](https://github.com/imShZh/QZone-Stylus/releases)
 
 下载完毕之后通过Stylus或者UserCSS等插件注入到QQ空间中。
 
