@@ -41,7 +41,7 @@ make
 
 
 # 预览
-
+<img src="preview.png" alt="preview" width="700">
 
 
 # 许可
