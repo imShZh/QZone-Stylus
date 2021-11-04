@@ -4,4 +4,6 @@ index.zip: index.css
 	zip $@ $?
 
 index.css: ${SRC}
-	cat $? > $@
+	echo "@-moz-document domain(\"qq.com\"){" >> $@
+	cat $? >> $@
+	echo "}" >> $@
