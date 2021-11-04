@@ -1,0 +1,13 @@
+/* 隐藏没必要的URL */
+span.description-text {
+    display: none;
+}
+
+/* 美化iframe */
+iframe {
+    border-radius: 0.5rem !important;
+}
+/* 隐藏日志广告信息 */
+#blogPrivilegeAd {
+    display: none;
+}
