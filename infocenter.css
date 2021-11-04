@@ -181,7 +181,7 @@ div.background-container
 /* 填充一个新背景 */
 body {
     background:
-        url('https://macjpeg.macsc.com/macw/pic/202108/04151326_624f0290a7.jpeg')
+        url('https://github.com/imShZh/QZone-Stylus/blob/main/background.jpeg')
         fixed no-repeat center / cover
     !important;
 }
