@@ -181,7 +181,7 @@ div.background-container
 /* 填充一个新背景 */
 body {
     background:
-        url('https://github.com/imShZh/QZone-Stylus/blob/main/background.jpeg')
+        url('https://raw.githubusercontent.com/imShZh/QZone-Stylus/main/background.jpeg')
         fixed no-repeat center / cover
     !important;
 }
