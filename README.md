@@ -14,9 +14,23 @@
 
 # 下载
 
-目前该项目并未挂到Userstyle上，你只能通过Github获取。
+本项目需要配合Stylus/UserCSS等插件配合使用。
 
-### 1. 手动构建
+这些插件的用途就是把项目的CSS注入到QQ空间这个网页中。
+
+### 1. 使用Userstyles
+
+本项目已经发布到userstyles上，你可以通过这个[链接](https://userstyles.org/styles/218340/qzone-stylish)直接下载CSS。
+
+### 2. 下载Release
+
+你可以在Github上下载已经被提前构建好的CSS。
+
+通过这个链接以获取：[点我](https://github.com/imShZh/QZone-Stylus/releases)
+
+下载完毕之后通过Stylus或者UserCSS等插件注入到QQ空间中。
+
+### 3. 手动构建
 
 首先下载本项目：
 
@@ -30,13 +44,7 @@ git clone git@github.com:imShZh/QZone-stylus.git
 make
 ```
 
-### 2. 下载Release
-
-你可以在Github上下载已经被提前构建好的CSS。
-
-通过这个链接以获取：[点我](https://github.com/imShZh/QZone-Stylus/releases)
-
-下载完毕之后通过Stylus或者UserCSS等插件注入到QQ空间中。
+最后和Release一样，使用插件手动注入。
 
 
 
