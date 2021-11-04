@@ -1,4 +1,4 @@
-SRC=adblock.css qzone.css
+SRC=adblock.css qzone.css infocenter.css
 
 index.zip: index.css
 	zip $@ $?
