@@ -68,8 +68,12 @@ div.head-avatar {
 }
 
 /* 美化导航栏 */
+#menuContainer {
+    left: 0 !important;
+}
 ul.head-nav-menu {
     display: flex;
+    margin: 0 auto;
     justify-content: space-evenly;
 }
 li[class^='menu_item_'] {
@@ -157,6 +161,13 @@ a.hot-msg {
 }
 #_returnTop_layout_inner > a:hover {
     box-shadow: black 0px 0px 30px;
+}
+
+/* 美化底部copyright */
+div.layout-copyright
+, div.layout-copyright > p > a
+{
+    color: white;
 }
 
 /* 删除原背景 */
