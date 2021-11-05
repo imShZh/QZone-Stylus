@@ -199,6 +199,11 @@ div.layout-copyright
     color: white;
 }
 
+/* 美化加载条 */
+div.update-more.check-more {
+    border-radius: 0.5rem !important;
+}
+
 /* 删除原背景 */
 div.background-container
 , div.layout-background
