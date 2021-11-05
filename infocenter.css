@@ -80,13 +80,13 @@ li[class^='menu_item_'] {
     height: 40px !important;
     border: 2px solid #d0d7de;
     border-radius: 0.5rem;
-    box-shadow: black 0px 0px 15px;
+    box-shadow: black 0 0 15px;
 
     background: white;
 }
 li[class^='menu_item_'] > a {
     width: 85px;
-    padding: 0px !important;
+    padding: 0 !important;
 
     text-align: center;
     line-height: 40px !important;
@@ -100,7 +100,7 @@ li[class^='menu_item_'] > a:hover {
     font-weight: 600;
 }
 li[class^='menu_item_']:hover {
-    box-shadow: black 0px 0px 30px;
+    box-shadow: black 0 0 30px;
 }
 
 /* 隐藏用不到的导航栏 */
@@ -159,10 +159,10 @@ a.hot-msg {
     font-family: serif;
 
     border-radius: 50% !important;
-    box-shadow: black 0px 0px 15px;
+    box-shadow: black 0 0 15px;
 }
 #_returnTop_layout_inner > a:hover {
-    box-shadow: black 0px 0px 30px;
+    box-shadow: black 0 0 30px;
 }
 
 /* 美化底部copyright */
