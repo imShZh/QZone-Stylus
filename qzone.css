@@ -11,3 +11,24 @@ iframe {
 #blogPrivilegeAd {
     display: none;
 }
+
+/* 主页 */
+#id_INNER {
+    display: none !important;
+}
+#ifeedsContainer {
+    padding-top: 0;
+}
+
+/* 说说 */
+div.feed_head.bbor3 {
+    display: none;
+}
+div.bor.mod-tab.author_display {
+    display: none;
+}
+
+/* 日志 */
+#cheatHintArea {
+    display: none;
+}
