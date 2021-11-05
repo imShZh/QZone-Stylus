@@ -5,6 +5,7 @@ li[type='mv']
 , div.mod-side-nav-recently-used
 , #qz-head-level
 , span.qz-app-flag.wing-fly
+, a.icon-qzphone.qz-app-flag
 {
     display: none;
 }
