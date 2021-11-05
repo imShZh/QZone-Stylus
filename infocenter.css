@@ -1,5 +1,6 @@
 /* 隐藏没用的元素 */
-div.top-fix-bar
+div.top-fix-wrap > *:not(:first-child)
+, div.top-fix-extend
 , span.btn-head-like
 , #QM_100004_Body
 , #tab_switch
@@ -12,6 +13,32 @@ div.top-fix-bar
 
 #tab_hide_list {
     display: block !important;
+}
+
+/* 显示logo */
+a.logo {
+    position: absolute;
+    width: 27px !important;
+    top: -35px;
+    left: -27px;
+}
+div.top-fix-inner {
+    width: 0 !important;
+    height: 0 !important;
+    border: 35px solid transparent;
+    border-top: 35px solid black;
+    border-left: 35px solid black;
+
+    background-color: transparent !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+}
+div.top-fix-bar {
+    height: 0 !important;
+}
+div.top-fix-wrap {
+    margin: 0 !important;
 }
 
 /* 标题居中 */
