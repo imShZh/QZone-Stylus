@@ -6,6 +6,7 @@ li[type='mv']
 , #qz-head-level
 , span.qz-app-flag.wing-fly
 , a.icon-qzphone.qz-app-flag
+, a.user-medal
 {
 	display: none;
 }
