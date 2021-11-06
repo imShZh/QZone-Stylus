@@ -8,126 +8,126 @@ div.top-fix-wrap > *:not(:first-child)
 , #QM_Mood_Poster_Container
 , .edit_title_link
 {
-    display: none;
+	display: none;
 }
 
 #tab_hide_list {
-    display: block !important;
+	display: block !important;
 }
 
 /* 显示logo */
 a.logo {
-    position: absolute;
-    width: 27px !important;
-    top: -35px;
-    left: -27px;
+	position: absolute;
+	width: 27px !important;
+	top: -35px;
+	left: -27px;
 }
 div.top-fix-inner {
-    width: 0 !important;
-    height: 0 !important;
-    border: 35px solid transparent;
-    border-top: 35px solid black;
-    border-left: 35px solid black;
+	width: 0 !important;
+	height: 0 !important;
+	border: 35px solid transparent;
+	border-top: 35px solid black;
+	border-left: 35px solid black;
 
-    background-color: transparent !important;
-    -webkit-box-shadow: none !important;
-    -moz-box-shadow: none !important;
-    box-shadow: none !important;
+	background-color: transparent !important;
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	box-shadow: none !important;
 }
 div.top-fix-bar {
-    height: 0 !important;
+	height: 0 !important;
 }
 div.top-fix-wrap {
-    margin: 0 !important;
+	margin: 0 !important;
 }
 
 /* 标题居中 */
 div.head-info {
-    position: relative !important;
-    top: auto !important;
-    text-align: center;
+	position: relative !important;
+	top: auto !important;
+	text-align: center;
 }
 /* 标题美化 */
 span.title-text {
-    color: white !important;
-    font-family: serif;
-    font-size: 2.25rem !important;
-    font-weight: 600;
+	color: white !important;
+	font-family: serif;
+	font-size: 2.25rem !important;
+	font-weight: 600;
 }
 div.head-detail-name > span.user-name {
-    color: white !important;
-    font-size: 1.5rem !important;
-    font-family: serif;
+	color: white !important;
+	font-size: 1.5rem !important;
+	font-family: serif;
 }
 
 /* 头部布局 */
 div.layout-head {
-    padding-top: 30px;
+	padding-top: 30px;
 }
 div.head-detail {
-    position: relative !important;
-    left: 0 !important;
+	position: relative !important;
+	left: 0 !important;
 }
 div.head-detail-name {
-    text-align: center;
-    padding-top: 7px;
+	text-align: center;
+	padding-top: 7px;
 }
 div.layout-nav, div.layout-nav-inner {
-    height: 85px;
+	height: 85px;
 }
 .layout-shop-item, .shop-item {
-    position: relative !important;
+	position: relative !important;
 }
 #menuContainer {
-    top: 200px !important;
+	top: 200px !important;
 }
 
 /* 美化用户头像 */
 img.user-avatar {
-    border: 2px solid #d0d7de !important;
-    border-radius: 50% !important;
+	border: 2px solid #d0d7de !important;
+	border-radius: 50% !important;
 }
 div.head-avatar {
-    position: relative !important;
-    border: none !important;
-    margin: 0 auto;
-    bottom: 155px !important;
+	position: relative !important;
+	border: none !important;
+	margin: 0 auto;
+	bottom: 155px !important;
 }
 
 /* 美化导航栏 */
 #menuContainer {
-    left: 0 !important;
+	left: 0 !important;
 }
 ul.head-nav-menu {
-    display: flex;
-    margin: 0 auto;
-    justify-content: space-evenly;
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-evenly;
 }
 li[class^='menu_item_'] {
-    height: 40px !important;
-    border: 2px solid #d0d7de;
-    border-radius: 0.5rem;
-    box-shadow: black 0 0 15px;
+	height: 40px !important;
+	border: 2px solid #d0d7de;
+	border-radius: 0.5rem;
+	box-shadow: black 0 0 15px;
 
-    background: white;
+	background: white;
 }
 li[class^='menu_item_'] > a {
-    width: 85px;
-    padding: 0 !important;
+	width: 85px;
+	padding: 0 !important;
 
-    text-align: center;
-    line-height: 40px !important;
-    font-family: serif;
-    font-size: 1.1rem;
-    font-weight: 500;
+	text-align: center;
+	line-height: 40px !important;
+	font-family: serif;
+	font-size: 1.1rem;
+	font-weight: 500;
 }
 li[class^='menu_item_'] > a:hover {
-    text-decoration: none;
-    font-size: 1.2rem;
-    font-weight: 600;
+	text-decoration: none;
+	font-size: 1.2rem;
+	font-weight: 600;
 }
 li[class^='menu_item_']:hover {
-    box-shadow: black 0 0 30px;
+	box-shadow: black 0 0 30px;
 }
 
 /* 隐藏用不到的导航栏 */
@@ -135,31 +135,31 @@ li[class^='menu_item_']:nth-last-of-type(1)
 , li[class^='menu_item_']:nth-last-of-type(2)
 , li[class^='menu_item_']:nth-last-of-type(3)
 {
-    display: none;
+	display: none;
 }
 /* 调整导航栏顺序 */
 li[class^='menu_item_']:nth-of-type(1) {
-    order: 1;
+	order: 1;
 }
 li[class^='menu_item_']:nth-of-type(2) {
-    order: 4;
+	order: 4;
 }
 li[class^='menu_item_']:nth-of-type(3) {
-    order: 3;
+	order: 3;
 }
 li[class^='menu_item_']:nth-of-type(4) {
-    order: 5;
+	order: 5;
 }
 li[class^='menu_item_']:nth-of-type(5) {
-    order: 2;
+	order: 2;
 }
 
 /* 美化左侧导航栏 */
 div.mod-side-nav.mod-side-nav-message {
-    border-radius: 0.5rem !important;
+	border-radius: 0.5rem !important;
 }
 ul.sn-list {
-    padding: 0 !important;
+	padding: 0 !important;
 }
 
 /* 美化动态 */
@@ -168,43 +168,43 @@ li.f-single
 , #QM_Container_3
 , #QM_Container_100003
 {
-    border-radius: 0.5rem !important;
+	border-radius: 0.5rem !important;
 }
 .fn-feed-control-v2 .control-inner {
-    border: none;
+	border: none;
 }
 div.update-more.loading-more {
-    border-radius: 0.5rem !important;
+	border-radius: 0.5rem !important;
 }
 
 /* 美化回到顶部 */
 a.hot-msg {
-    display: none !important;
+	display: none !important;
 }
 #_returnTop_layout_inner {
-    border: none;
+	border: none;
 }
 #_returnTop_layout_inner > a {
-    color: black;
-    font-family: serif;
+	color: black;
+	font-family: serif;
 
-    border-radius: 50% !important;
-    box-shadow: black 0 0 15px;
+	border-radius: 50% !important;
+	box-shadow: black 0 0 15px;
 }
 #_returnTop_layout_inner > a:hover {
-    box-shadow: black 0 0 30px;
+	box-shadow: black 0 0 30px;
 }
 
 /* 美化底部copyright */
 div.layout-copyright
 , div.layout-copyright > p > a
 {
-    color: white;
+	color: white;
 }
 
 /* 美化加载条 */
 div.update-more.check-more {
-    border-radius: 0.5rem !important;
+	border-radius: 0.5rem !important;
 }
 
 /* 删除原背景 */
@@ -213,12 +213,12 @@ div.background-container
 , div.layout-nav
 , div.lay_background
 {
-    background: none!important;
+	background: none!important;
 }
 /* 填充一个新背景 */
 body.bg-body {
-    background:
-        url('https://raw.githubusercontent.com/imShZh/QZone-Stylus/main/background.jpeg')
-        fixed no-repeat center / cover
-    !important;
+	background:
+			url('https://raw.githubusercontent.com/imShZh/QZone-Stylus/main/background.jpeg')
+			fixed no-repeat center / cover
+	!important;
 }
