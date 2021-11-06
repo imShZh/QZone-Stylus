@@ -19,6 +19,9 @@ iframe {
 #ifeedsContainer {
 	padding-top: 0;
 }
+div.user-pto img {
+	border: 1px solid #d0d7de !important;
+}
 
 /* 说说 */
 div.feed_head.bbor3 {
@@ -29,6 +32,9 @@ div.bor.mod-tab.author_display {
 }
 
 /* 日志 */
-#cheatHintArea {
-	display: none;
+#cheatHintArea
+, span.userlevel
+, span[rel^='user_vip_info_']
+{
+	display: none !important;
 }
