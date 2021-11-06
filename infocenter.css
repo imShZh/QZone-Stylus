@@ -118,12 +118,12 @@ li[class^='menu_item_'] > a {
 	text-align: center;
 	line-height: 40px !important;
 	font-family: serif;
-	font-size: 1.1rem;
+	font-size: 1.1rem !important;
 	font-weight: 500;
 }
 li[class^='menu_item_'] > a:hover {
 	text-decoration: none;
-	font-size: 1.2rem;
+	font-size: 1.2rem !important;
 	font-weight: 600;
 }
 li[class^='menu_item_']:hover {
