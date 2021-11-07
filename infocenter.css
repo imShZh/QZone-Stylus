@@ -207,6 +207,23 @@ div.update-more.check-more {
 	border-radius: 0.5rem !important;
 }
 
+/* 美化左侧导航栏页面 */
+/* 美化那年今日 */
+br {
+	display: none !important;
+}
+a.fn-feed-more-href {
+	width: 100% !important;
+}
+li.past-years-date-li {
+	padding-top: 0 !important;
+	margin-bottom: 12px !important;
+}
+/* 美化与我相关 */
+div.f-info-l {
+	display: none !important;
+}
+
 /* 删除原背景 */
 div.background-container
 , div.layout-background
