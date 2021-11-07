@@ -7,6 +7,9 @@ li[type='mv']
 , span.qz-app-flag.wing-fly
 , a.icon-qzphone.qz-app-flag
 , a.user-medal
+, span.js-private-comment
+, #recent_visitors_side
+, a[class^='qz_vip_icon']
 {
-	display: none;
+	display: none !important;
 }
