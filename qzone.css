@@ -22,6 +22,9 @@ iframe {
 div.user-pto img {
 	border: 1px solid #d0d7de !important;
 }
+#id_PHOTOWALL {
+	margin-bottom: 0 !important;
+}
 
 /* 说说 */
 div.feed_head.bbor3 {
