@@ -224,6 +224,14 @@ div.f-info-l {
 	display: none !important;
 }
 
+/* 美化说说 */
+img[src^='http://qzonestyle.gtimg.cn/qzone/em/'] {
+	width: 24px !important;
+}
+div.f-reprint {
+	margin-top: 11px;
+}
+
 /* 删除原背景 */
 div.background-container
 , div.layout-background
