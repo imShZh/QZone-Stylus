@@ -161,6 +161,9 @@ div.mod-side-nav.mod-side-nav-message {
 ul.sn-list {
 	padding: 0 !important;
 }
+#tab_menu_friend {
+	border-radius: 0.5rem !important;
+}
 
 /* 美化动态 */
 li.f-single
