@@ -9,9 +9,9 @@ clean:
 index.zip: index.min.css
 	zip $@ $?
 
-# Use '$' to escape
+# Remove comments(by sed) and whitespace(by tr)
 index.min.css: index.css
-	cat $? | tr -d "\t\n\r" > $@
+	sed 's/\/\*.*\*\///g' $? | tr -d "\t\n\r" > $@
 
 index.css: ${SRC}
 	echo "@-moz-document domain(\"qq.com\"){" >> $@
