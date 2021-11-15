@@ -7,8 +7,9 @@ div.top-fix-wrap > *:not(:first-child)
 , #weatherDiv
 , #QM_Mood_Poster_Container
 , .edit_title_link
+, #accessory_zoom
 {
-	display: none;
+	display: none !important;
 }
 
 #tab_hide_list {
@@ -192,7 +193,7 @@ a.hot-msg {
 	font-family: serif;
 
 	border-radius: 50% !important;
-	box-shadow: black 0 0 15px;
+	box-shadow: currentColor 0 0 15px;
 }
 #_returnTop_layout_inner > a:hover {
 	box-shadow: black 0 0 30px;
