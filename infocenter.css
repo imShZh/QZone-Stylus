@@ -247,7 +247,7 @@ div.background-container
 /* 填充一个新背景 */
 body.bg-body {
 	background:
-			url('https://raw.githubusercontent.com/imShZh/QZone-Stylus/main/background.jpeg')
+			url('https://img-stroage.oss-cn-hangzhou.aliyuncs.com/uPic/background.jpeg')
 			fixed no-repeat center / cover
 	!important;
 }
