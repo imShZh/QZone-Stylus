@@ -1,6 +1,6 @@
 /* 更改QZone奇怪的样式 */
-.html {
-	font-size: 100%;
+html {
+	font-size: 100% !important;
 }
 
 /* 隐藏没必要的URL */
