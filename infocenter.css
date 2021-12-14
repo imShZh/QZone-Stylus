@@ -8,6 +8,8 @@ div.top-fix-wrap > *:not(:first-child)
 , #QM_Mood_Poster_Container
 , .edit_title_link
 , #accessory_zoom
+, #qz_notification
+, .f-single-biz
 {
 	display: none !important;
 }
@@ -79,8 +81,10 @@ div.layout-nav, div.layout-nav-inner {
 .layout-shop-item, .shop-item {
 	position: relative !important;
 }
-#menuContainer {
+.shop-item {
 	top: 200px !important;
+	left: 0 !important;
+	width: auto !important;
 }
 
 /* 美化用户头像 */
@@ -96,9 +100,6 @@ div.head-avatar {
 }
 
 /* 美化导航栏 */
-#menuContainer {
-	left: 0 !important;
-}
 ul.head-nav-menu {
 	display: flex;
 	margin: 0 auto;

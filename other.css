@@ -1,0 +1,14 @@
+/* 屏蔽广告 */
+.user-vip-info {
+	display: none !important;
+}
+
+/* 调整顶部 */
+#headContainer {
+	height: 250px !important;
+}
+
+/* 调整举报和顶部按钮位置 */
+.report {
+	margin-top: 20px;
+}

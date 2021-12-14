@@ -1,5 +1,5 @@
 .DEFAULT_GOAL := index.zip
-SRC=adblock.css infocenter.css qzone.css
+SRC=adblock.css infocenter.css other.css qzone.css
 DST=index.zip index.min.css index.css
 
 .PHONY: clean
