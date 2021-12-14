@@ -3,6 +3,11 @@
 	display: none !important;
 }
 
+/* 屏蔽Flash插件 */
+.animation-shake {
+	display: none !important;
+}
+
 /* 调整顶部 */
 #headContainer {
 	height: 250px !important;
