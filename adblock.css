@@ -10,6 +10,8 @@ li[type='mv']
 , span.js-private-comment
 , #recent_visitors_side
 , a[class^='qz_vip_icon']
+, #qz_notification
+, .f-single-biz
 {
 	display: none !important;
 }

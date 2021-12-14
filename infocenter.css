@@ -8,8 +8,6 @@ div.top-fix-wrap > *:not(:first-child)
 , #QM_Mood_Poster_Container
 , .edit_title_link
 , #accessory_zoom
-, #qz_notification
-, .f-single-biz
 {
 	display: none !important;
 }
