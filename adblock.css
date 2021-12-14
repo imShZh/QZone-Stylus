@@ -3,13 +3,15 @@ li[type='mv']
 , li[type='app']
 , div.head-detail-info
 , div.mod-side-nav-recently-used
-, #qz-head-level
 , span.qz-app-flag.wing-fly
 , a.icon-qzphone.qz-app-flag
 , a.user-medal
 , span.js-private-comment
-, #recent_visitors_side
+, #qz-head-level
 , #qz_notification
+, #recent_visitors_side
+, .vip-tag
+, .vip-info-bar.open-vip
 , .f-single-biz
 , .openVipButton
 , a[class^='qz_vip_icon']
@@ -18,6 +20,9 @@ li[type='mv']
 , img[alt='绿钻图标']
 , img[alt='会员图标']
 , a[title='开通黄钻查看被挡访客']
+, a[title='点击开通访客详情特权']
+, #nopower_see_refuse p:last-of-type
+, #nopower_see_refuse .actions
 {
 	display: none !important;
 }
@@ -28,17 +33,17 @@ li[type='mv']
 }
 
 /* 开通黄钻提示信息 */
-.txt {
+.qz_pop_icon .txt {
 	text-align: center;
 	margin: 0 30px;
 }
-.txt > h3 {
+.qz_pop_icon .txt > h3 {
 	font-size: 1.35em;
 }
-.txt p:last-child a:last-child {
+.qz_pop_icon .txt p:last-child a:last-child {
 	text-decoration: none;
 	color: #edba45;		/* 从黄钻官网找来的颜色 */
 }
-.txt p:last-child a:last-child:hover {
+.qz_pop_icon .txt p:last-child a:last-child:hover {
 	text-decoration: underline;
 }
