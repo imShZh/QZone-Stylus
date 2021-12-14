@@ -12,3 +12,8 @@
 .report {
 	margin-top: 20px;
 }
+
+/* 调整举报弹窗样式 */
+#dialog_content_3, #jubao_frame {
+	height: 360px !important;
+}
