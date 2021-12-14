@@ -180,6 +180,10 @@ div.update-more.loading-more {
 	border-radius: 0.5rem !important;
 }
 
+.comments-op > a:nth-last-child(1).act-reply {
+	vertical-align: -4px !important;
+}
+
 /* 美化回到顶部 */
 a.hot-msg {
 	display: none !important;
