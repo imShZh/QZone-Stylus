@@ -9,9 +9,36 @@ li[type='mv']
 , a.user-medal
 , span.js-private-comment
 , #recent_visitors_side
-, a[class^='qz_vip_icon']
 , #qz_notification
 , .f-single-biz
+, .openVipButton
+, a[class^='qz_vip_icon']
+, a[title='开通黄钻']
+, img[alt='黄钻图标']
+, img[alt='绿钻图标']
+, img[alt='会员图标']
+, a[title='开通黄钻查看被挡访客']
 {
 	display: none !important;
+}
+
+/* 未开通黄钻时，查看某条说说浏览量的那个窗口 */
+.ui-dl-bd {
+	height: 310px !important;
+}
+
+/* 开通黄钻提示信息 */
+.txt {
+	text-align: center;
+	margin: 0 30px;
+}
+.txt > h3 {
+	font-size: 1.35em;
+}
+.txt p:last-child a:last-child {
+	text-decoration: none;
+	color: #edba45;		/* 从黄钻官网找来的颜色 */
+}
+.txt p:last-child a:last-child:hover {
+	text-decoration: underline;
 }
